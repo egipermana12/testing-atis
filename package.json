@@ -1,0 +1,25 @@
+{
+  "name": "atis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "dotenv": "^17.0.1",
+    "mocha": "^11.7.1",
+    "prettier": "^3.6.2",
+    "selenium-webdriver": "^4.34.0"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "_moduleAliases": {
+    "@helpers": "helpers"
+  }
+}
