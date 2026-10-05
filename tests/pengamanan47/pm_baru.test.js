@@ -119,10 +119,10 @@ describe("Form Validation Tests", function () {
 
   it("should show error nama pemakai kosong", async () => {
     const searching = {
-      nibar: "1021",
+      nibar: "22619507",
     };
 
-    const error = "Nama Pemakai belum diisi!";
+    const error = "Pemakai belum dipilih!";
 
     await loopTesting(driver, searching, error);
   });
